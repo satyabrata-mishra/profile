@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Montserrat:wght@300;500&display=swap');
+.aboutme{
+    text-align: center;
+    color: black;
+    font-family: 'Bakbak One', cursive;
+    margin: 2vh 6vw 2vh 6vw;
+}
+@media only screen and (max-width: 500px) {
+    .aboutme{
+            font-size: 1.1rem;
+            font-weight: 300;
+    }
+  }
