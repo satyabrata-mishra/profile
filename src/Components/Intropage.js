@@ -22,7 +22,7 @@ export default function Intropage() {
     return (
         <>
             <div className="intropage">
-                <p className="introline">Hi There,  I Am  S Mishra.</p>
+                <p className="introline">Hi There,  I Am  Satyabrata Mishra.</p>
                 <div className="contact">
                     <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/satyabrata-mishra-52ab58218"><img src={linkedin} alt="" /></a>
                     <a target="_blank" rel="noreferrer" href="https://instagram.com/s_.mishra"><img src={insta} alt="" /></a>
