@@ -36,8 +36,11 @@
             border-radius: 0;
     }
     .aboutme img{
-        width: 94vw;
-        height: 44vh;
+        width: 88vw;
+        height: 41vh;
         border-radius: 50%;
+    }
+    .aboutme p{
+        text-align: center;
     }
   }
