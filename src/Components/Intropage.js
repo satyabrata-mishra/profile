@@ -51,8 +51,8 @@ export default function Intropage() {
                         <Button variant="transparent"><i className="fa fa-whatsapp" style={{ fontSize: "2rem", color: "black" }}></i></Button>
                     </OverlayTrigger>
                 </div>
-                <div className="copy">&copy; 2021 SatyabrataMishra</div>
-                <div className="footer">Last Updated: 14 Feb,2022 22:36 </div>
+                <div className="copy">&copy; 2022 SatyabrataMishra</div>
+                <div className="footer">Last Updated: 15 Feb,2022 17:35 </div>
             </div>
         </>
     )
