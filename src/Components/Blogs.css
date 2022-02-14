@@ -3,7 +3,9 @@
     background-color: darkslategrey;
     min-height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     position: absolute;
     top: 0;
     width: 100%;
