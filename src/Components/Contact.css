@@ -1,0 +1,51 @@
+ .contactbody{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(66, 146, 146,0.5);
+    position: absolute;
+    top: 0;
+    width: 100%;
+} 
+.contact1{
+    height: 50vh;
+    width: 30vw;
+    text-align: center;
+    box-shadow: 0 0 20px gray;
+    border-radius: 20px;
+    padding: 2vh 0;
+    color: black;
+    background-color: rgb(252, 237, 210);
+    animation: ani 1s 1;
+}
+.contact1 p{
+    font-size: 1.3rem;
+    font-weight: 600;
+} 
+.contact1 a{
+    margin: 0 0.5vw;
+}
+.line{
+    height:0.2vh;
+     width:26vw; 
+     background-color:black;
+     margin:0 2vw;
+} 
+@media only screen and (max-width:600px) {
+    .contact1{
+        width: 100vw;
+        height: 40vh;
+        border-radius:0;
+    }
+    .line{
+        width: 90vw;
+        margin: 0 5vw;
+    }
+    .contact1 p{
+        font-size: 1.3rem;
+    }
+    .contact1 a{
+        margin: 0 2vw;
+    }
+}

@@ -1,50 +1,58 @@
 import React from 'react'
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './Intropage.css'
-import linkedin from '../Images/link.png'
-import insta from '../Images/instagram.png'
-import github from '../Images/github.png'
-import contact from '../Images/contact.png'
-import gmail from '../Images/gmail.png'
-import { Tooltip } from 'react-bootstrap'
-import { OverlayTrigger } from 'react-bootstrap'
-import { Button } from 'react-bootstrap'
+import { OverlayTrigger } from 'react-bootstrap';
+import { Tooltip } from 'react-bootstrap';
+import { Button } from 'react-bootstrap';
+import iter from '../Images/iter.png'
+import { Link } from 'react-router-dom';
+// import {Link} from 'react-scroll'
 export default function Intropage() {
-    const renderTooltip = (props) => (
-        <Tooltip id="button-tooltip" {...props}>
-            mishrasatyabrata27@gmail.com
-        </Tooltip>)
-    const renderTooltip1 = (props) => (
-        <Tooltip id="button-tooltip" {...props}>
-            9348392756
-        </Tooltip>
-    );
     return (
         <>
             <div className="intropage">
-                <p className="introline">Hi There,  I Am  Satyabrata Mishra.</p>
+
+                <p className="introline">SATYABRATA MISHRA</p>
+                <p className="des">"Copy-and-Paste was programmed by programmers for programmers actually."</p>
+                <p className="des">"It’s not a bug — it’s an undocumented feature."</p>
+                <nav>
+                    <Link to="education">EDUCATION <i className="fas fa-user-graduate"></i></Link>
+                    <Link to="launguage">LAUNGUAGE PROFICENCY <i className="fas fa-code"></i></Link>
+                    <Link to="projects">PROJECTS <i className="fas fa-project-diagram"></i></Link>
+                    <Link to="blogs">BLOGS <i className="fas fa-blog"></i></Link>
+                    <Link to="certifications">CERTIFICATIONS <i className="fas fa-certificate"></i></Link>
+                    <a href={iter} download>RESUME <i className="fas fa-download"></i></a>
+                    <Link to="contact">CONTACT <i className="fas fa-phone-alt"></i></Link>
+                    <Link to="about">ABOUT <i className="fas fa-address-card"></i></Link>
+                </nav>
                 <div className="contact">
-                    <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/satyabrata-mishra-52ab58218"><img src={linkedin} alt="" /></a>
-                    <a target="_blank" rel="noreferrer" href="https://instagram.com/s_.mishra"><img src={insta} alt="" /></a>
-                    <a target="_blank" rel="noreferrer" href="https://github.com/satyabrata-mishra"><img src={github} alt="" /></a>
+                    <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/satyabrata-mishra-52ab58218"><i className="fa fa-linkedin" style={{ fontSize: "2rem", color: "black" }}></i></a>
+                    <a target="_blank" rel="noreferrer" href="https://instagram.com/s_.mishra"><i className="fa fa-instagram" style={{ fontSize: "2rem", color: "black" }}></i></a>
+                    <a target="_blank" rel="noreferrer" href="https://github.com/satyabrata-mishra"><i className="fa fa-github" style={{ fontSize: "2rem", color: "black" }}></i></a>
                 </div>
-                <br />
                 <div className="contact">
                     <OverlayTrigger
-                        placement="top"
-                        delay={{ show: 0, hide: 0 }}
-                        overlay={renderTooltip}
+                        placement={"top"}
+                        overlay={
+                            <Tooltip id={`tooltip-top`}>
+                                mishrasatyabrata27@gmail.com
+                            </Tooltip>
+                        }
                     >
-                        <Button variant="light"><img src={gmail} alt="" /></Button>
+                        <Button variant="transparent"><i className="fa fa-envelope" style={{ fontSize: "2rem", color: "black" }}></i></Button>
                     </OverlayTrigger>
                     <OverlayTrigger
-                        placement="top"
-                        delay={{ show: 0, hide: 0}}
-                        overlay={renderTooltip1}
+                        placement={"top"}
+                        overlay={
+                            <Tooltip id={`tooltip-top`}>
+                                9348392756
+                            </Tooltip>
+                        }
                     >
-                        <Button variant="light"><img src={contact} alt="" /></Button>
+                        <Button variant="transparent"><i className="fa fa-whatsapp" style={{ fontSize: "2rem", color: "black" }}></i></Button>
                     </OverlayTrigger>
                 </div>
+                <div className="copy">&copy; 2021 SatyabrataMishra</div>
+                <div className="footer">Last Updated: 14 Feb,2022 22:36 </div>
             </div>
         </>
     )

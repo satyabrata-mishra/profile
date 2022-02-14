@@ -1,13 +1,13 @@
 import React from 'react'
-import './Skills.css'
+import './Launguage.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { ProgressBar } from 'react-bootstrap'
 export default function Skills() {
     return (
-        <>
-            <h2 className='skil'>Launguages Known</h2>
+        <div className="launguagepage">
+            <h2 className='skil'>SKILLS</h2>
             <div className='progbar'>
-                <ProgressBar label=" JAVA 70%" variant='success' now={70} />
+                <ProgressBar label="JAVA 70%" variant='success' now={70} />
                 <br />
                 <ProgressBar label="PYTHON 50%" variant='success' now={50} />
                 <br />
@@ -15,6 +15,6 @@ export default function Skills() {
                 <br />
                 <ProgressBar label="REACT JS 50%" variant='success' now={50} />
             </div>
-        </>
+        </div>
     )
 }
