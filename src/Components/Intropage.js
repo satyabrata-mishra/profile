@@ -5,7 +5,6 @@ import { Tooltip } from 'react-bootstrap';
 import { Button } from 'react-bootstrap';
 import iter from '../Images/iter.png'
 import { Link } from 'react-router-dom';
-// import {Link} from 'react-scroll'
 export default function Intropage() {
     return (
         <>
@@ -52,7 +51,7 @@ export default function Intropage() {
                     </OverlayTrigger>
                 </div>
                 <div className="copy">&copy; 2022 SatyabrataMishra</div>
-                <div className="footer">Last Updated: 19 Feb,2022 12:37 </div>
+                <div className="footer">Last Updated: 4 March,2022 11:12 </div>
             </div>
         </>
     )
