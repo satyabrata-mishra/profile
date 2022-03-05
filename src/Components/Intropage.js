@@ -48,11 +48,11 @@ export default function Intropage() {
                             </Tooltip>
                         }
                     >
-                        <Button variant="transparent"><a rel="noreferrer" target="_blank" href="https://wa.me/919348392756?text=I%20want%20to%20contact%20you."><i className="fa fa-whatsapp" style={{ fontSize: "2rem", color: "black" }}></i> </a></Button>
+                        <Button variant="transparent"><a rel="noreferrer" target="_blank" href="https://wa.me/919348392756?text=Can%20I%20have%20your%20valuable%20time?"><i className="fa fa-whatsapp" style={{ fontSize: "2rem", color: "black" }}></i> </a></Button>
                     </OverlayTrigger>
                 </div>
                 <div className="copy">&copy; 2022 SatyabrataMishra</div>
-                <div className="footer">Last Updated: 6 March,2022 16:18 </div>
+                <div className="footer">Last Updated: 5 March,2022 17:02 </div>
             </div>
         </>
     )
