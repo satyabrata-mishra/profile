@@ -37,7 +37,8 @@ export default function Intropage() {
                             </Tooltip>
                         }
                     >
-                        <Button variant="transparent"><i className="fa fa-envelope" style={{ fontSize: "2rem", color: "black" }}></i></Button>
+                        {/* */}
+                        <Button variant="transparent"><a rel="noreferrer" href="mailto: mishrasatyabrata27@gmail.com"><i className="fa fa-envelope" style={{ fontSize: "2rem", color: "black" }}></i></a></Button>
                     </OverlayTrigger>
                     <OverlayTrigger
                         placement={"top"}
@@ -47,11 +48,11 @@ export default function Intropage() {
                             </Tooltip>
                         }
                     >
-                        <Button variant="transparent"><i className="fa fa-whatsapp" style={{ fontSize: "2rem", color: "black" }}></i></Button>
+                        <Button variant="transparent"><a rel="noreferrer" target="_blank" href="https://wa.me/9348392756"><i className="fa fa-whatsapp" style={{ fontSize: "2rem", color: "black" }}></i> </a></Button>
                     </OverlayTrigger>
                 </div>
                 <div className="copy">&copy; 2022 SatyabrataMishra</div>
-                <div className="footer">Last Updated: 4 March,2022 11:12 </div>
+                <div className="footer">Last Updated: 5 March,2022 16:18 </div>
             </div>
         </>
     )
