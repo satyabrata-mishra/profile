@@ -1,6 +1,6 @@
 import React from 'react'
 import './Certification.css'
-import hashcode from '../Images/hashcode.png'
+import hashcode from '../Images/googlehashcode.png'
 export default function Certification() {
   return (
     <div className='certificationbody'>

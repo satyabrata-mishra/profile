@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
 .certificationbody{
     min-height: 100vh;
     display: flex;
@@ -19,12 +19,12 @@
     border-radius: 10px;
     border: 2px solid gray;
     box-shadow: 0px 0px 3px gray;
-    font-family: 'Rowdies', cursive;
+    font-family: 'Fredoka', sans-serif;
     animation: ani 1s  1 ;
     background-color: aliceblue;
 }
 .certificates img{
-    height: 40vh;
+    height: 50vh;
     width: 40vw;
 }
 .certificates a{
@@ -41,7 +41,7 @@
         height: 50vw;
     }
     .certificates p{
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         margin: .5vh 0;
     }
     
