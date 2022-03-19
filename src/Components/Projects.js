@@ -8,6 +8,7 @@ import captcha from '../Images/captcha.png'
 import numbersystem from '../Images/numbersystem.png'
 import calculator from '../Images/calculator.png'
 import currencyconverter from '../Images/currencyconverter.png'
+import weatherapp from '../Images/weatherapp.png'
 export default function Projects() {
     return (
         <div className='project'>
@@ -17,6 +18,11 @@ export default function Projects() {
                     <img src={news} alt="Unable to load." />
                     <p>NEWS APP</p>
                     <a href="https://github.com/satyabrata-mishra/News-App" rel="noreferrer" target={"_blank"}>VIEW PROJECT</a>
+                </div>
+                <div className="projectbox">
+                    <img src={weatherapp} alt="Unable to load." />
+                    <p>WEATHER APP</p>
+                    <a href="https://satyabrata-mishra.github.io/weatherapp" rel="noreferrer" target={"_blank"}>VIEW WEBSITE</a>
                 </div>
                 <div className="projectbox">
                     <img src={currencyconverter} alt="Unable to load." />
