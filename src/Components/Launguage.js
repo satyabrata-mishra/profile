@@ -9,11 +9,11 @@ export default function Skills() {
             <div className='progbar'>
                 <ProgressBar label="JAVA 70%" variant='success' now={70} />
                 <br />
-                <ProgressBar label="PYTHON 50%" variant='success' now={50} />
+                <ProgressBar label="PYTHON 40%" variant='success' now={40} />
                 <br />
                 <ProgressBar label="NODE JS 40%" variant='success' now={40} />
                 <br />
-                <ProgressBar label="REACT JS 50%" variant='success' now={50} />
+                <ProgressBar label="REACT JS 50%" variant='success' now={60} />
             </div>
         </div>
     )
