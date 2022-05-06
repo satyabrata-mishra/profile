@@ -3,7 +3,7 @@ import './Intropage.css'
 import { OverlayTrigger } from 'react-bootstrap';
 import { Tooltip } from 'react-bootstrap';
 import { Button } from 'react-bootstrap';
-import iter from '../Images/iter.png'
+import resume from '../pdf/Resume_Satyabrata_Mishra.pdf'
 import { Link } from 'react-router-dom';
 export default function Intropage() {
     return (
@@ -19,7 +19,7 @@ export default function Intropage() {
                     <Link to="projects">PROJECTS <i className="fas fa-project-diagram"></i></Link>
                     <Link to="blogs">BLOGS <i className="fas fa-blog"></i></Link>
                     <Link to="certifications">CERTIFICATIONS <i className="fas fa-certificate"></i></Link>
-                    <a href={iter} download>RESUME <i className="fas fa-download"></i></a>
+                    <a href={resume} download>RESUME <i className="fas fa-download"></i></a>
                     <Link to="contact">CONTACT <i className="fas fa-phone-alt"></i></Link>
                     <Link to="about">ABOUT <i className="fas fa-address-card"></i></Link>
                 </nav>
@@ -52,7 +52,7 @@ export default function Intropage() {
                     </OverlayTrigger>
                 </div>
                 <div className="copy">&copy; 2022 SatyabrataMishra</div>
-                <div className="footer">Last Updated: 20 March,2022 16:30 </div>
+                <div className="footer">Last Updated: 06 May,2022 22:07 </div>
             </div>
         </>
     )
