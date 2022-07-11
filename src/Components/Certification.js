@@ -1,6 +1,8 @@
 import React from 'react'
 import './Certification.css'
 import hashcode from '../Images/googlehashcode.png'
+import chugncode from '../Images/Chug_n_Code_Certificate.png'
+import chugncodepdf from '../pdf/Chug_n_Code_Certificate_pdf.pdf'
 export default function Certification() {
   return (
     <div className='certificationbody'>
@@ -10,6 +12,11 @@ export default function Certification() {
         <p>Global Rank-2621</p>
         <p>All India Rank-992</p>
         <a href={hashcode} download>DOWNLOAD <i className="fas fa-download"></i></a>
+      </div>
+      <div className='certificates'>
+        <img src={chugncode} alt="Unable to load." />
+        <p>Participated on Chug 'n' Code By Codex</p>
+        <a href={chugncodepdf} download>DOWNLOAD <i className="fas fa-download"></i></a>
       </div>
     </div>
     )
