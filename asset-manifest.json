@@ -1,9 +1,11 @@
 {
   "files": {
     "main.css": "/profile/static/css/main.c3b68e8c.css",
-    "main.js": "/profile/static/js/main.4c256f40.js",
+    "main.js": "/profile/static/js/main.ac8393aa.js",
     "static/js/787.00d4da7d.chunk.js": "/profile/static/js/787.00d4da7d.chunk.js",
     "static/media/satyabrata.jpg": "/profile/static/media/satyabrata.3b2709a0aa00d2d61e9a.jpg",
+    "static/media/Chug_n_Code_Certificate_pdf.pdf": "/profile/static/media/Chug_n_Code_Certificate_pdf.3b9624383855f08d1919.pdf",
+    "static/media/Chug_n_Code_Certificate.png": "/profile/static/media/Chug_n_Code_Certificate.b1a6b5aaf3e19c1af7a8.png",
     "static/media/montfort.png": "/profile/static/media/montfort.cba2b9a4c8eedeb2c605.png",
     "static/media/Satyabrata's Resume.pdf": "/profile/static/media/Satyabrata's Resume.65c10dba886f184f7d08.pdf",
     "static/media/googlehashcode.png": "/profile/static/media/googlehashcode.12a9e6a69d09a12d6541.png",
@@ -22,11 +24,11 @@
     "static/media/odm.png": "/profile/static/media/odm.5927fd90ca0a1dffe5fa.png",
     "index.html": "/profile/index.html",
     "main.c3b68e8c.css.map": "/profile/static/css/main.c3b68e8c.css.map",
-    "main.4c256f40.js.map": "/profile/static/js/main.4c256f40.js.map",
+    "main.ac8393aa.js.map": "/profile/static/js/main.ac8393aa.js.map",
     "787.00d4da7d.chunk.js.map": "/profile/static/js/787.00d4da7d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c3b68e8c.css",
-    "static/js/main.4c256f40.js"
+    "static/js/main.ac8393aa.js"
   ]
 }
