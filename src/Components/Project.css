@@ -21,8 +21,8 @@
 .projectbox{
     text-decoration: none;
     color: rgb(250, 224, 190);
-    height: 45vh;
-    width: 30vw;
+    height: 40vh;
+    width: 26vw;
     text-align: center;
     margin: 4vh 0;
     border-radius: 25px;
@@ -43,16 +43,8 @@
 .projectbox .imgnumbersystem{
     width: 22vw;
 }
-.projectbox a{
-    text-decoration: none;
+.projectbox p{
     color: rgb(250, 224, 190);
-    border: 1px solid whitesmoke;
-    padding: 1vh 2vw;
-    border-radius: 10px;
-    font-size: 1rem;
-}
-.projectbox a:hover{
-    text-decoration: underline;
 }
 .check{
     color: rgb(250, 224, 190);
@@ -80,8 +72,5 @@
     }
     .projectbox .imgnumbersystem{
         width: 85vw;
-    }
-    .projectbox a{
-        font-size: 0.8rem;
     }
 }
