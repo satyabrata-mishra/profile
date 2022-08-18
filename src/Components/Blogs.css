@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+.blogbody{
+    background-color: darkslategrey;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.blogcard{
+    background: transparent;
+    min-height: 40vh;
+    width: 60vw;
+    margin:8vh 0;
+    border-radius: 20px;
+    border: 2px solid white;
+    color: white;
+    padding: 2vh 2vw;
+    font-family: 'Quicksand', sans-serif;
+    user-select:none;
+    animation: ani 1s  1 ;
+}
+.date{
+    text-align: right;
+}
+@media only screen and (max-width:600px) {
+    .blogcard{
+        width: 90vw;
+        margin: 2vh 0;
+    }
+    .blogdate{
+        font-size: 1.1rem;
+    }
+    .blogpara{
+        font-size: 1.1rem;
+    }
+}

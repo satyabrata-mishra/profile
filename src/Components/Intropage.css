@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+.intropage{
+    min-height: 100vh;
+    width: 100vw;
+    background-image: url("../Images/bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.introline{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    color: #111010;
+    font-weight: 600;
+    animation: ani 2s 1 ;
+}
+.des{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: black;
+    animation: ani 2s 1 ;
+}
+nav{
+    margin-bottom: 5vh;
+    animation: ani 2s 1 ;
+}
+nav a{
+    text-decoration: none;
+    margin: 0 2px;
+    padding: 1.3vh 1.1vw;
+    background-color: transparent;
+    color: black;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+nav a:hover{
+    color: black;
+    background-color: white;
+}
+.contact{
+    animation: ani 2s 1 ;
+}
+.contact a{
+    margin: 0 5px;
+}
+.copy{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: black;
+    animation: ani 2s 1 ;
+}
+.footer{
+    margin-right: 4vw;
+    width: 100%;
+    text-align: right;
+    position: relative;
+    top: 18vh;
+    font-family: 'Bakbak One' ,'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: rgb(0, 0, 0,0.8);
+    font-size: 0.9rem;
+    user-select: none;
+}
+@media only screen and (max-width: 600px) {
+    .intropage{
+        width: 100%;
+    }
+    .introline{
+        font-size: 2rem;
+        color: black;
+        margin-top: 1vh;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .des{
+        display: none;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    nav a{
+        margin-top: 0.4vh;
+        text-align: center;
+    }
+    .copy{
+        font-size: 1.2rem;
+    }
+    .footer{
+        text-align: center;
+        position: relative;
+        top: 0;
+    }
+}

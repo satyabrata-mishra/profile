@@ -1,0 +1,77 @@
+.project{
+    background-image: url(../Images/projectbg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.projectheading{
+    text-align: center;
+    color: antiquewhite;
+    animation: ani 1s 1 ;
+}
+.projectbody{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.projectbox{
+    text-decoration: none;
+    color: rgb(250, 224, 190);
+    height: 40vh;
+    width: 26vw;
+    text-align: center;
+    margin: 4vh 0;
+    border-radius: 25px;
+    border: 2px solid whitesmoke;
+    background: transparent;
+    font-weight: 600;
+    font-size: 1.2rem;
+    animation: ani 1s 1 ;
+}
+.projectbox:hover{
+    background-color: rgb(0, 0, 0,0.1);
+}
+.projectbox img{
+    margin: 2vh 0;
+    height: 25vh;
+    width: 14vw;
+}
+.projectbox .imgnumbersystem{
+    width: 22vw;
+}
+.projectbox p{
+    color: rgb(250, 224, 190);
+}
+.check{
+    color: rgb(250, 224, 190);
+}
+.check1{
+    text-decoration: none;
+    color: rgb(250, 224, 190);
+}
+.check1:hover{
+    color: rgb(250, 224, 190);
+    text-decoration: underline;
+    font-weight: 400;
+}
+@media only screen and (max-width:600px) {
+    .projectbody{
+        margin-top: -1vh;
+    }
+    .projectbox{
+        width: 89vw;
+        height: 37vh;
+        font-size: 1.1rem;
+        margin: 2vh 0;
+    }
+    .projectbox img{
+        width: 55vw;
+    }
+    .projectbox .imgnumbersystem{
+        width: 85vw;
+    }
+}

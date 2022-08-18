@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+.certificationbody {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: lightslategray;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.certificates {
+    text-align: center;
+    min-height: 50vh;
+    width: 45vw;
+    padding: 2vh 2vw;
+    margin: 2vh 0;
+    border-radius: 10px;
+    border: 2px solid gray;
+    box-shadow: 0px 0px 3px gray;
+    font-family: 'Fredoka', sans-serif;
+    animation: ani 1s 1;
+    background-color: aliceblue;
+}
+
+.certificates img {
+    height: 50vh;
+    width: 40vw;
+}
+
+.certificates a {
+    text-decoration: none;
+    color: black;
+}
+
+@media only screen and (max-width:600px) {
+    .certificates {
+        width: 97vw;
+        box-shadow: none;
+        min-height: 0;
+    }
+
+    .certificates img {
+        width: 90vw;
+        height: 50vw;
+    }
+
+    .certificates p {
+        font-size: 1.1rem;
+        margin: .5vh 0;
+    }
+
+}

@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Montserrat:wght@300;500&display=swap');
+.aboutbody{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(128, 128, 128,0.5);
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.aboutme{
+    width: 40vw;
+    padding: 2vh 2vw;
+    text-align: center;
+    color: black;
+    font-family: 'Bakbak One' ,'Times New Roman', Times, serif;
+    box-shadow: 0 0 100px gray;
+    background-color: whitesmoke;
+    animation: ani 1s 1;
+    border-radius: 25px;
+}
+.aboutme p{
+    text-align: left;
+}
+.aboutme img{
+    height: 35vh;
+    width: 16vw;
+    border-radius: 50%;
+}
+@media only screen and (max-width: 500px) {
+    .aboutme{
+            font-size: 1.1rem;
+            font-weight: 300;
+            width: 100vw;
+            border-radius: 0;
+    }
+    .aboutme img{
+        width: 80vw;
+        height: 41vh;
+        border-radius: 50%;
+    }
+    .aboutme p{
+        text-align: center;
+    }
+  }
