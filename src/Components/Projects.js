@@ -1,12 +1,10 @@
 import React from 'react'
 import './Project.css'
 import news from '../Images/news.png'
-import todo from '../Images/todo.png'
 import rps from '../Images/rps.png'
 import ttt from '../Images/ttt.png'
 import captcha from '../Images/captcha.png'
 import numbersystem from '../Images/numbersystem.png'
-import calculator from '../Images/calculator.png'
 import currencyconverter from '../Images/currencyconverter.png'
 import weatherapp from '../Images/weatherapp.png'
 import chatroom from '../Images/chatroom.png'
@@ -21,6 +19,10 @@ export default function Projects() {
                     <img src={chatroom} alt="Unable to load." />
                     <p>CHATROOM</p>
                 </a>
+                <a className="projectbox" href="https://satyabrata-mishra.github.io/weatherapp/" rel="noreferrer" target={"_blank"}>
+                    <img src={weatherapp} alt="Unable to load." />
+                    <p>WEATHER APP</p>
+                </a>
                 <a className="projectbox" href='https://github.com/satyabrata-mishra/News-App' rel="noreferrer" target={"_blank"}>
                     <img src={news} alt="Unable to load." />
                     <p>NEWS APP</p>
@@ -29,11 +31,7 @@ export default function Projects() {
                     <img src={spotify} alt="Unable to load." />
                     <p>SPOTIFY CLONE</p>
                 </a>
-                <a className="projectbox" href="https://github.com/satyabrata-mishra/weatherapp" rel="noreferrer" target={"_blank"}>
-                    <img src={weatherapp} alt="Unable to load." />
-                    <p>WEATHER APP</p>
-                </a>
-                <a className="projectbox" href="https://github.com/satyabrata-mishra/currencyconverter.github.io" rel="noreferrer" target={"_blank"}>
+                <a className="projectbox" href="https://satyabrata-mishra.github.io/currencyconverter.github.io/" rel="noreferrer" target={"_blank"}>
                     <img src={currencyconverter} alt="Unable to load." />
                     <p>CURRENCY CONVERTER</p>
                 </a>

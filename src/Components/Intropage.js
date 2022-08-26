@@ -3,7 +3,7 @@ import './Intropage.css'
 import { OverlayTrigger } from 'react-bootstrap';
 import { Tooltip } from 'react-bootstrap';
 import { Button } from 'react-bootstrap';
-import resume from "../pdf/Satyabrata's Resume.pdf"
+import resume from "../pdf/Satyabrata's Resume.pdf";
 import { Link } from 'react-router-dom';
 export default function Intropage() {
     return (
@@ -52,7 +52,7 @@ export default function Intropage() {
                     </OverlayTrigger>
                 </div>
                 <div className="copy">&copy; 2022 SatyabrataMishra</div>
-                <div className="footer">Last Updated: 19 August,2022 20:43 </div>
+                <div className="footer">Last Updated: 26 August,2022 13:19 </div>
             </div>
         </>
     )
