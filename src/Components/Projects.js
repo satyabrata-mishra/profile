@@ -1,14 +1,16 @@
-import React from 'react'
-import './Project.css'
-import news from '../Images/news.png'
-import rps from '../Images/rps.png'
-import ttt from '../Images/ttt.png'
-import captcha from '../Images/captcha.png'
-import numbersystem from '../Images/numbersystem.png'
-import currencyconverter from '../Images/currencyconverter.png'
-import weatherapp from '../Images/weatherapp.png'
-import chatroom from '../Images/chatroom.png'
-import spotify from '../Images/spotify.png'
+import React from 'react';
+import './Project.css';
+import news from '../Images/news.png';
+import rps from '../Images/rps.png';
+import ttt from '../Images/ttt.png';
+import captcha from '../Images/captcha.png';
+import numbersystem from '../Images/numbersystem.png';
+import currencyconverter from '../Images/currencyconverter.png';
+import weatherapp from '../Images/weatherapp.png';
+import chatroom from '../Images/chatroom.png';
+import spotify from '../Images/spotify.png';
+import netflix from '../Images/netflix.png';
+
 
 export default function Projects() {
     return (
@@ -18,6 +20,10 @@ export default function Projects() {
                 <a className="projectbox" href='https://chatroom0.netlify.app/' rel="noreferrer" target={"_blank"}>
                     <img src={chatroom} alt="Unable to load." />
                     <p>CHATROOM</p>
+                </a>
+                <a className="projectbox" href='https://netflix-clone000.netlify.app/' rel="noreferrer" target={"_blank"}>
+                    <img src={netflix} alt="Unable to load." />
+                    <p>NETFLIX CLONE</p>
                 </a>
                 <a className="projectbox" href="https://satyabrata-mishra.github.io/weatherapp/" rel="noreferrer" target={"_blank"}>
                     <img src={weatherapp} alt="Unable to load." />
