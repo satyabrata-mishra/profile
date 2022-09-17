@@ -10,6 +10,7 @@ import weatherapp from '../Images/weatherapp.png';
 import chatroom from '../Images/chatroom.png';
 import spotify from '../Images/spotify.png';
 import netflix from '../Images/netflix.png';
+import memories from '../Images/memories.png';
 
 
 export default function Projects() {
@@ -24,6 +25,10 @@ export default function Projects() {
                 <a className="projectbox" href='https://netflix-clone000.netlify.app/' rel="noreferrer" target={"_blank"}>
                     <img src={netflix} alt="Unable to load." />
                     <p>NETFLIX CLONE</p>
+                </a>
+                <a className="projectbox" href='https://blog-application0.netlify.app/' rel="noreferrer" target={"_blank"}>
+                    <img src={memories} alt="Unable to load." />
+                    <p>MEMORIES</p>
                 </a>
                 <a className="projectbox" href="https://satyabrata-mishra.github.io/weatherapp/" rel="noreferrer" target={"_blank"}>
                     <img src={weatherapp} alt="Unable to load." />

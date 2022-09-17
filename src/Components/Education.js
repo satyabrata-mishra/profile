@@ -6,7 +6,6 @@ import iter from '../Images/iter.png'
 export default function Education() {
     return (
         <div className="educationpage">
-            {/* <h2 className='heading'>Educational Details</h2> */}
             <div className='box'>
                 <div className="card12">
                     <img src={iter} alt="" />
