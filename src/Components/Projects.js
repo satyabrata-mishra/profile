@@ -1,5 +1,6 @@
 import React from 'react';
 import './Project.css';
+
 import news from '../Images/news.png';
 import rps from '../Images/rps.png';
 import ttt from '../Images/ttt.png';
@@ -11,13 +12,19 @@ import chatroom from '../Images/chatroom.png';
 import spotify from '../Images/spotify.png';
 import netflix from '../Images/netflix.png';
 import memories from '../Images/memories.png';
+import attendance_manager_app_logo from '../Images/attendance-manager-app-logo.png'
 
+import attendance from '../APK/attendance-manager-app.apk'
 
 export default function Projects() {
     return (
         <div className='project'>
             <h2 className='projectheading'>PROJECTS</h2>
             <div className='projectbody'>
+                <a className="projectbox" href={attendance} download rel="noreferrer" target={"_blank"}>
+                    <img src={attendance_manager_app_logo} alt="Unable to load." />
+                    <p>ATTENDANCE MANAGER APP</p>
+                </a>
                 <a className="projectbox" href='https://chatroom0.netlify.app/' rel="noreferrer" target={"_blank"}>
                     <img src={chatroom} alt="Unable to load." />
                     <p>CHATROOM</p>
