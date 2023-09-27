@@ -52,7 +52,7 @@ export default function Intropage() {
                     </OverlayTrigger>
                 </div>
                 <div className="copy">&copy; 2022 SatyabrataMishra</div>
-                <div className="footer">Last Updated: 26 Sept,2023 22:53 </div>
+                <div className="footer">Last Updated: 27 Sept,2023 22:33 </div>
             </div>
         </>
     )
